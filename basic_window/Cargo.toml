@@ -1,0 +1,7 @@
+[package]
+name = "basic_window"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+raylib = {path = "../raylib"}
