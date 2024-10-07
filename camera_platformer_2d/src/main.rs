@@ -402,8 +402,8 @@ unsafe fn update_camera_even_out_on_landing(
 unsafe fn update_camera_player_bounds_push(
     camera: &mut Camera2D,
     player: &Player,
-    env_items: &[EnvItem],
-    delta_time: f32,
+    _env_items: &[EnvItem],
+    _delta_time: f32,
     width: i32,
     height: i32,
 ) {
