@@ -186,3 +186,28 @@ pub const RAYWHITE: Color = Color {
     b: 245,
     a: 255,
 };
+
+pub fn Vector2Subtract(v1: Vector2, v2: Vector2) -> Vector2 {
+    Vector2 {
+        x: v1.x - v2.x,
+        y: v1.y - v2.y,
+    }
+}
+
+pub fn Vector2Length(v: Vector2) -> f32 {
+    f32::sqrt((v.x * v.x) + (v.y * v.y))
+}
+
+pub fn Vector2Add(v1: Vector2, v2: Vector2) -> Vector2 {
+    Vector2 {
+        x: v1.x + v2.x,
+        y: v1.y + v2.y,
+    }
+}
+
+pub fn Vector2Scale(v: Vector2, scale: f32) -> Vector2 {
+    Vector2 {
+        x: v.x * scale,
+        y: v.y * scale,
+    }
+}

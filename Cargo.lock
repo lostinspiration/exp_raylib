@@ -17,5 +17,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "camera_platformer_2d"
+version = "0.1.0"
+dependencies = [
+ "raylib",
+]
+
+[[package]]
 name = "raylib"
 version = "0.1.0"

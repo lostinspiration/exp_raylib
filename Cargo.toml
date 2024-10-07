@@ -1,6 +1,8 @@
 [workspace]
-members = [ "basic_screen_manager",
+members = [ 
+  "basic_screen_manager",
   "basic_window", 
+  "camera_platformer_2d", 
   "raylib",
 ]
 resolver = "2"
