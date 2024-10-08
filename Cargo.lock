@@ -24,5 +24,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "fog_of_war"
+version = "0.1.0"
+dependencies = [
+ "raylib",
+]
+
+[[package]]
 name = "raylib"
 version = "0.1.0"

@@ -3,6 +3,7 @@ members = [
   "basic_screen_manager",
   "basic_window", 
   "camera_platformer_2d", 
+  "fog_of_war", 
   "raylib",
 ]
 resolver = "2"
