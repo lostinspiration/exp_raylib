@@ -5,3 +5,5 @@ version.workspace = true
 
 [dependencies]
 raylib = {path = "../raylib"}
+bevy_ecs = "0.14.2"
+bevy_tasks = "0.14.2"

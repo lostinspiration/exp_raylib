@@ -98,7 +98,7 @@ pub const SKYBLUE: Color = Color {
 
 pub const BLUE: Color = Color {
     r: 0,
-    g: 212,
+    g: 121,
     b: 241,
     a: 255,
 };
